@@ -1,13 +1,16 @@
 body {
   text-align: center;
-  background-color: #1f3162;
+  /* background-color: #1f3162; */
+  background-image:   url("images/bg.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 #1904da00;
 
 }
 
@@ -66,7 +69,7 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 5px solid #404B69;
   font-size: 2rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
@@ -77,7 +80,37 @@ footer {
   display: inline-block;
   width: 150px;
   height: 150px;
-  text-align: right;
+  text-align: center;
   margin: 10px;
   background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer{
+  padding-top : 138px
+}
+
+@media screen and  (max-width :1386px) {
+  
+  body{
+    text-align: center;
+    /* background-color: #1f3162; */
+    background-image:   url("images/raychan-2m06ystc2d4-unsplash.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  
+  h1{
+    padding: 30px 30px;
+  }
+
+  .drum{
+    padding : 100px 100px ;
+  }
+
+  footer{
+    padding-top : 230px ;
+  }
 }
